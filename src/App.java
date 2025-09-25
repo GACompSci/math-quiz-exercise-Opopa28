@@ -46,7 +46,7 @@ public class App {
             System.out.println("Correct awnser is: "+ c_awnser_3);
         }
         // 4
-        double u_awnser4 = Methods.roundDouble(0, dog.getDouble("What is "+ rounded_num_4 + "/"+ num_1+"= "));
+        double u_awnser4 = Methods.roundDouble(0, dog.getDouble("What is "+ rounded_num_4 + ".0/"+ num_1+"= "));
         double c_awnser_4 =  (Methods.roundDouble(0, rounded_num_4 / num_1));
         if (u_awnser4 == c_awnser_4){
             score +=1;
